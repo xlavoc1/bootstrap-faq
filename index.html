@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style2.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+
+    <div class="panel-group" id="accordion">
+      <div class="faqHeader">FAQ</div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Kim jest frontend developer?</a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            Front End Developer to osoba programująca wizualną część strony internetowej. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam esse explicabo voluptatum? Suscipit deserunt, ducimus deleniti ea. Veniam a amet dicta, consectetur odio impedit eligendi sint possimus. Nisi tempora aspernatur dicta optio facere aliquid rerum animi quis placeat! Similique, suscipit.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Od czego zaczyna się nauka?</a>
+          </h4>
+        </div>
+        <div id="collapseTen" class="panel-collapse collapse">
+          <div class="panel-body">
+            Nauka rozpoczyna się od podstaw. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque quidem explicabo, aut voluptates recusandae excepturi, maiores vitae distinctio! Aliquid ratione similique repellat aspernatur neque, laboriosam quibusdam perferendis laborum tempore corporis esse officia eaque laudantium doloribus possimus recusandae debitis reprehenderit vero consequatur maiores ipsa minima, autem perspiciatis dolore? Aperiam aut aliquam placeat laudantium molestias, enim, animi recusandae rem consequatur incidunt dolor eius necessitatibus dolores dicta ipsam hic perspiciatis sunt ducimus dolorem corporis harum fuga! Natus fuga accusamus amet quae, earum ratione repudiandae quo deserunt sit autem! Ipsa id ratione sunt eum error, quia fuga, quos labore.
+          </div>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">Znam już podstawy co dalej?</a>
+          </h4>
+        </div>
+        <div id="collapseEleven" class="panel-collapse collapse">
+          <div class="panel-body">
+            Dalej jest Lorem.. ipsum dolor sit amet, consectetur adipisicing elit. Quo blanditiis numquam magnam, consequatur ipsa totam sit aliquid eos fugiat! Omnis modi provident quis repellat, fuga nihil in numquam veniam itaque. Dolores, deserunt sed recusandae quos sequi, fugit ipsa. Quaerat magnam unde dicta quae, nobis error architecto atque alias, tempora eum porro, vel nesciunt rerum nisi, debitis animi reiciendis possimus suscipit hic odit delectus dignissimos. Quisquam expedita ipsa nemo fugit, qui quas incidunt nam error. Excepturi et architecto nostrum, facilis dignissimos, cumque ab amet! Ab hic blanditiis facere corrupti assumenda autem molestias a, amet provident repellendus sit, sunt quaerat id officia?
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .faqHeader {
+      font-size: 27px;
+      margin: 20px;
+      text-align: center;
+    }
+
+    .panel-title {
+      background-color: rgb(204, 204, 204);
+      color: #F58723;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+      font-family: 'Glyphicons Halflings';
+      content: "e072";
+      /* "play" icon */
+      float: right;
+      color: #F58723;
+      font-size: 18px;
+      line-height: 22px;
+      /* rotate "play" icon from > (right arrow) to down arrow */
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+      font-size: 0%;
+    }
+
+    a {
+      color: #F58723;
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+      /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+      color: #454444;
+    }
+
+  </style>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
